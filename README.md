@@ -98,15 +98,13 @@ Database Schema
     Email
 
 Relationships
-
-    Artist - Album: One-to-Many (An artist can have multiple albums).
-    Album - Track: One-to-Many (An album can have multiple tracks).
-    Track - MediaType: Many-to-One (A track belongs to one media type).
-    Track - Genre: Many-to-One (A track belongs to one genre).
-    Playlist - PlaylistTrack - Track: Many-to-Many (A track can belong to multiple playlists).
-    Customer - Invoice: One-to-Many (A customer can have multiple invoices).
-    Invoice - InvoiceLine: One-to-Many (An invoice can have multiple invoice lines).
-    Track - InvoiceLine: One-to-Many (A track can appear in multiple invoice lines).
-    Employee - Customer: One-to-Many (An employee can support multiple customers).
-    Employee - Employee: Self-referencing (An employee can report to another employee).
-
+Artist - Album: One-to-Many (An artist can have multiple albums).
+Album - Track: One-to-Many (An album can have multiple tracks).
+Track - MediaType: Many-to-One (A track belongs to one media type).
+Track - Genre: Many-to-One (A track belongs to one genre).
+Playlist - PlaylistTrack - Track: Many-to-Many (A track can belong to multiple playlists).
+Customer - Invoice: One-to-Many (A customer can have multiple invoices).
+Invoice - InvoiceLine: One-to-Many (An invoice can have multiple invoice lines).
+Track - InvoiceLine: One-to-Many (A track can appear in multiple invoice lines).
+Employee - Customer: One-to-Many (An employee can support multiple customers).
+Employee - Employee: Self-referencing (An employee can report to another employee).
