@@ -98,6 +98,7 @@ Database Schema
     Email
 
 Relationships
+
 Artist - Album: One-to-Many (An artist can have multiple albums).
 Album - Track: One-to-Many (An album can have multiple tracks).
 Track - MediaType: Many-to-One (A track belongs to one media type).
